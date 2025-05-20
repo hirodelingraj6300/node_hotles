@@ -1,0 +1,14 @@
+# Normalize all text files to use LF in the repo, CRLF on Windows
+* text=auto
+
+# Force line endings for specific file types
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.html   text
+*.css    text
+*.json   text
+*.md     text
+*.yml    text
+*.sh     text eol=lf
