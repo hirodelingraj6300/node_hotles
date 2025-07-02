@@ -22,5 +22,5 @@ passport.use(new LocalStrategy(async(USERNAME, password, done)=>{
 
    }
 }))
-
+//  this is module.exports = passport 02/07/25
 module.exports = passport;
