@@ -4,6 +4,7 @@ node_modules/
 # Ignore build output (if applicable)
 dist/
 build/
+.gitignore 
 
 # Ignore environment files
 .env
