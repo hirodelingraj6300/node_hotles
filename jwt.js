@@ -26,6 +26,8 @@ const generateToken = (userData) =>{
     return jwt.sign(userData, process.env.JWT_SECRET);
 }
 
-
+// this is module.exports = {jwtAuthMiddleware,generateToken }; 3/07/25
+// this is module.exports = {jwtAuthMiddleware,generateToken }; 3/07/25
+// this is module.exports = {jwtAuthMiddleware,generateToken }; 3/07/25
 
 module.exports = {jwtAuthMiddleware,generateToken };
