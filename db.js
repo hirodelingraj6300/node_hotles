@@ -22,12 +22,5 @@ db.on('disconnected', () => {
     console.log('MongoDB disconnection');
 });
 
-// Export the connection
-// Export the connection
-// Export the connection
-// Export the connection
-// Export the connection
-// Export the connection
-// Export the connection
-// Export the connection  time  1:32 pm
+// This line exports the database connection object (db) so it can be used in other files
 module.exports = db;
