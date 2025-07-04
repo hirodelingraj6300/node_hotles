@@ -25,9 +25,5 @@ const generateToken = (userData) =>{
     // Generate a new Jwt Token using user data
     return jwt.sign(userData, process.env.JWT_SECRET);
 }
-
-// this is module.exports = {jwtAuthMiddleware,generateToken }; 3/07/25
-// this is module.exports = {jwtAuthMiddleware,generateToken }; 3/07/25
-// this is module.exports = {jwtAuthMiddleware,generateToken }; 3/07/25
-
+// this is lingraj hirode date:04/07/25 time: 09:09 Am
 module.exports = {jwtAuthMiddleware,generateToken };
